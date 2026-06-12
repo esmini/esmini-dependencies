@@ -1,0 +1,13 @@
+name: Setup tools shared
+description: Setup platform tools
+
+runs:
+  using: 'composite'
+
+  steps:
+    - if: runner.os == 'Linux'
+      shell: bash
+      run: sudo apt-get update -q
+        && sudo apt-get install -q -y gcc-9 g++-9
+        && sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 200
+        && sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 200
