@@ -27,7 +27,7 @@
 # -----------------------------------------------------------------------------------
 # Review and update settings in this section according to your system and preferences
 
-PROTOBUF_VERSION=3.15.2
+PROTOBUF_VERSION=3.20.2
 OSI_VERSION=3.5.0
 ZIP_MIN_VERSION=13
 
