@@ -1,5 +1,10 @@
 ## esmini-dependencies release notes
 
+### 2026-11-17 sumo-v1.28.0_1
+
+New libraries:
+- Add SUMO 1.28.0
+
 ### 2026-10-17 osi-v3.5.0_3
 
 Improvements and fixes:
